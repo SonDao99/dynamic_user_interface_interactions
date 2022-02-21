@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script> 
+    <title>Dynamic User Interface Interactions</title>
+</head>
+<body>
+    <div class="dropDownMenu">
+        <button class="menu">Menu</button>
+        <div class="dropDown notVisible">
+            <button>About Us</button>
+            <button>Contact</button>
+            <button>Careers</button>
+        </div>
+    </div>
+    
+    <div id="imgSlider">
+        <button id="backButton"> < </button>
+        <div id="imgContainer">
+            <img src="img_mountains_wide.jpg" id="1">
+            <img src="img_nature_wide.jpg" id="2" class="notVisible">
+            <img src="img_snow_wide.jpg" id="3" class="notVisible">
+        </div>
+        <button id="forwardButton"> > </button>
+    </div>
+    <div id="dots">
+        <span id="dot1" class="dot filled"></span>
+        <span id="dot2" class="dot"></span>
+        <span id="dot3" class="dot"></span>
+    </div>
+</body>
+</html>
